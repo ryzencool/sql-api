@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+db:
+  main:
+    url: jdbc:postgresql://49.235.94.2:55435/sqlmate?currentSchema=public&useSSL=false
+    username: zmyjust
+    password: zmy1qaz2wsx
+  pg:
+    url: jdbc:postgresql://49.235.94.2:55435/sqlmate?currentSchema=public&useSSL=false
+    username: zmyjust
+    password: zmy1qaz2wsx
+  mysql:
+    url: jdbc:mysql://49.235.94.2:3306/sqlmate
+    username: sammy
+    password: zmy1qaz!QAZ
