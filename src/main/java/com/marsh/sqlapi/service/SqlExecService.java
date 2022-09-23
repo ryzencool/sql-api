@@ -1,13 +1,11 @@
 package com.marsh.sqlapi.service;
 
 import com.marsh.sqlapi.controller.request.ExecSqlReq;
-import com.marsh.sqlapi.exception.BaseException;
 import com.marsh.sqlapi.helper.RoutingDataSourceContext;
 import com.marsh.sqlapi.result.SqlResult;
 import com.marsh.zutils.exception.BaseBizException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.datasource.init.ScriptUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
